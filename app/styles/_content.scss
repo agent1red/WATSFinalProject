@@ -1,0 +1,36 @@
+
+
+
+
+body {
+    background-color: $gray-light;
+    .header {
+         background-color: $gray-lighter;
+    }
+}
+
+.marketing, .header {
+ @include border-top-radius(50px);
+ @include border-bottom-radius(50px);
+    .jumbotron {
+	
+	h1 {
+	
+	color: $btn-warning-color;
+		font-family: $font-family-sans-serif;
+	}
+        
+    }
+   
+}
+
+
+
+.footer p   {
+
+	@include text-hide();
+
+}
+
+
+
